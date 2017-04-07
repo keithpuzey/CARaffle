@@ -1,6 +1,6 @@
-describe('Describe Protractor Example', function(){
+describe('CA Raffle UI Test', function(){
 
-  it('Should navigate to protractortest.org', function(){
+  it('Run tests Against CA Raffle site', function(){
 
 
   });
