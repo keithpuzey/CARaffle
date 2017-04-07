@@ -1,5 +1,5 @@
 exports.config = {
-  seleniumAddress: 'http://localhost:4444/wd/hub',
+  seleniumAddress: 'http://ondemand.saucelabs.com:80',
   baseUrl: 'http://caraffle3.us-east-1.elasticbeanstalk.com/',
   specs: ['spec.js'],
   multiCapabilities: [{browserName: 'firefox'}, ],
