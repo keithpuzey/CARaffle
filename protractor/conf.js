@@ -2,7 +2,9 @@ exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
   baseUrl: 'http://caraffle3.us-east-1.elasticbeanstalk.com/',
   specs: ['spec.js'],
-  multiCapabilities: [{browserName: 'chrome'}, {browserName: 'firefox'}, ],
+    multiCapabilities: [{browserName: 'chrome'}, {browserName: 'firefox'}, {tunnel-identifier: process.env.TRAVIS_JOB_NUMBER}, {build: 52},
+{name: 'CA Raffle Test'}]  
+  
   onPrepare: function(){
     browser.driver.get('http://caraffle3.us-east-1.elasticbeanstalk.com/');
     element(by.linkText('About')).click();
