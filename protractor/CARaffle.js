@@ -2,7 +2,6 @@ exports.config = {
   seleniumAddress: 'http://ondemand.saucelabs.com:80',
   baseUrl: 'http://caraffle3.us-east-1.elasticbeanstalk.com/',
   specs: ['spec.js'],
-  multiCapabilities: [{browserName: 'chrome'}, ],
   onPrepare: function(){
     browser.driver.get('http://caraffle3.us-east-1.elasticbeanstalk.com/');
     element(by.linkText('About')).click();
