@@ -1,24 +1,14 @@
-<?php session_start() ;
 
-            foreach ($_SESSION as $key => $value) 
-            {
-
-                //$line[$i] = $_SESSION[$key] = null;
-                unset($_SESSION[$key]); // - will wipe out the refs totally.
-            }
-			
-			$_SESSION['orderConfirmFinalised'] = false;
-
-?>
 
 <html>
+
 	<head>
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 		<link rel="stylesheet" href="css/layouts/store.css">
 		<title></title>
-
-
+		<script src="raffle_validation.js">
+		</script>
 	</head>
 	<body>
 	<?php include('includes/header.php') ?>
@@ -34,7 +24,7 @@
     <br>
 
 
-   <button type="submit" class="pure-button pure-button-primary">Enter Raffle</button>
+   <button type="submit" class="pure-button pure-button-primary" >Enter Raffle</button>
 </form>
 						</div>
 					</fieldset>
