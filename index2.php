@@ -5,9 +5,8 @@
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 		<link rel="stylesheet" href="css/layouts/store.css">
-		<title></title>
-
-
+		<title>CA Raffle</title>
+		<meta http-equiv="refresh" content="10">
 	</head>
 	<body>
 	<?php include('includes/adminheader.php') ?>
