@@ -16,6 +16,7 @@ if(isset($_POST['Name']) )
 if(empty($Name))
 {
     echo "You did not fill out the required fields.";
+         die();
 }
 {
     $data = $_POST['Name'] . "\n";
