@@ -23,7 +23,7 @@ if(isset($_POST['Name'])&&!empty($_POST['Name'])) {
     }
 }
 else {
-   $Success = 'There was an error, please enter a name';
+   $Success = 'The field cannot be empty.  Please click the home button to return to the entry form and re-enter your name.';
    //die('no post data to process');
 }
 ?>
