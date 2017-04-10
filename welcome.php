@@ -11,13 +11,13 @@
 
 <?php
 
+   if(in_array("",$_POST)){
+         //this will check the whole post data if any field is empty.
+            echo 'form is empty'; 
+            echo 'some error message';
+            exit;
 if(isset($_POST['Name']) )
 
-if(empty($Name))
-{
-    echo "You did not fill out the required fields.";
-         die();
-}
 {
     $data = $_POST['Name'] . "\n";
     $ret = file_put_contents('/var/www/html/mydata.txt', $data, FILE_APPEND | LOCK_EX);
