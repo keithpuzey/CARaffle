@@ -1,6 +1,6 @@
 <div id="layout" class="pure-g">
 		<div class="sidebar pure-u-1 pure-u-md-1-4">
-			<IMG SRC="/images/raffle.gif" ALT="Raffle" WIDTH=180 HEIGHT=180>
+			<IMG SRC="/images/raffle.gif" ALT="Raffle" WIDTH=140 HEIGHT=140>
 							
 			<div class="header">
 				<h1 class="brand-title">CA Kick Off</h1>
