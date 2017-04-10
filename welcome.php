@@ -11,7 +11,7 @@
 
 <?php
 
-if(isset($_POST['Name']) !== true ) {
+if(isset($_POST['Name']) ) {
     $data = $_POST['Name'] . "\n";
     $ret = file_put_contents('/var/www/html/mydata.txt', $data, FILE_APPEND | LOCK_EX);
     if($ret == false) {
