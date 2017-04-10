@@ -11,9 +11,7 @@
 
 <?php
 
-if(isset($_POST['Name']) )
-
-{
+if(isset($_POST['Name'])) {
     $data = $_POST['Name'] . "\n";
     $ret = file_put_contents('/var/www/html/mydata.txt', $data, FILE_APPEND | LOCK_EX);
     if($ret == false) {
@@ -25,6 +23,7 @@ if(isset($_POST['Name']) )
     }
 }
 else {
+   $Success = 'There was an error, please enter a name';
    die('no post data to process');
 }
 ?>
