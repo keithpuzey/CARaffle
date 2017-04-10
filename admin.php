@@ -14,7 +14,7 @@
 $myFile = "mydata.txt";
 $SecondaryFile = "Secondary.txt";              
 clearstatcache();
-if(filesize($myFile) < 100 ) {   // your file is not empty
+if(filesize($myFile) > 80 ) {   // your file is not empty
                 
 $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
 }
