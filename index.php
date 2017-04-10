@@ -28,7 +28,7 @@
    <button type="submit" class="pure-button pure-button-primary" >Enter Raffle</button>
 </form>
 							
-	<IMG SRC="/images/raffle-tickets.png" ALT="Raffle" WIDTH=32 HEIGHT=32>
+	<IMG SRC="/images/raffle-tickets.png" ALT="Raffle" WIDTH=132 HEIGHT=132>
 						</div>
 					</fieldset>
 				</form>
