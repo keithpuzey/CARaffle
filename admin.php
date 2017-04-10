@@ -1,37 +1,32 @@
-
-
 <html>
+        <head>
+                <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+                <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+                <link rel="stylesheet" href="css/layouts/store.css">
+                <title></title>
 
-	<head>
-		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
-		<link rel="stylesheet" href="css/layouts/store.css">
-		<title></title>
-		<script src="raffle_validation.js">
-		</script>
-	</head>
-	<body>
-	<?php include('includes/header.php') ?>
-		<div class="content pure-u-1 pure-u-md-3-4">
-			<h1 class="brand-title">CA virtual raffle</h1>
+        </head>
+        <body>
+        <?php include('includes/adminheader.php') ?>
+
+
+<?php
+$myFile = "mydata.txt";
+$lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
+
+?>
+
+                <div class="content pure-u-1 pure-u-md-3-4">
+                        <h1 class="brand-title">Congratulations to our Winners</h1>
         <br>
+
+        <br>
+<p>  The First winner is  <b> <?=$lines[5]?> </b>  </p>
+<p>  The Second winner is <b> <?=$lines[3]?> </b> </p>
+<p>  The last Winner is <b> <?=$lines[2]?> </b>  </p>
         <br>
 
-						<div class="pure-controls">
-             <form action="welcome.php" method="post">
-        Name: <input name = Name type="text" name="Enter Your Name"><br>
-    <br>
-    <br>
+<?php include('includes/footer.php') ?>
 
-
-   <button type="submit" class="pure-button pure-button-primary" >Enter Raffle</button>
-</form>
-						</div>
-					</fieldset>
-				</form>
-			</div>
-		</div>
-
-		<?php include('includes/footer.php') ?>
-	</body>
+</body>
 </html>
