@@ -12,16 +12,14 @@
 
 <?php
 $myFile = "mydata.txt";
+$SecondaryFile = "Secondary.txt";              
 clearstatcache();
-if(filesize($myfile)) {
-    // your file is not empty
-}
+if(filesize($myfile)) {   // your file is not empty
                 
 $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
 }
                 
-  else   { $lines = file($Secondary.txt,FILE_IGNORE_NEW_LINES);//file in to an array          
-                
+  else   { $lines = file($SecondaryFile,FILE_IGNORE_NEW_LINES);//file in to an array          
  }
 ?>
 
