@@ -24,13 +24,13 @@ $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
 ?>
 
                 <div class="content pure-u-1 pure-u-md-3-4">
-                        <h1 class="brand-title"><img src="chaching.png" />Congratulations to our Winners</h1>
+                        <h1 class="brand-title"><img src="chaching.png" /><br/>Congratulations to our Winners</h1>
         <br>
 
         <br>
 <p>  The First winner is  <b> <?=$lines[5]?> </b>  </p>
 <p>  The Second winner is <b> <?=$lines[3]?> </b> </p>
-<p>  The last Winner is <b> <?=$lines[2]?> </b>  </p>
+<p>  The last winner is <b> <?=$lines[2]?> </b>  </p>
         <br>
 
 <?php include('includes/footer.php') ?>
