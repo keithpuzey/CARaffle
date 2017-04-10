@@ -24,7 +24,7 @@ $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
 ?>
 
                 <div class="content pure-u-1 pure-u-md-3-4">
-                        <h1 class="brand-title">Congratulations to our Winners</h1>
+                        <h1 class="brand-title"><img src="chaching.png" />Congratulations to our Winners</h1>
         <br>
 
         <br>
