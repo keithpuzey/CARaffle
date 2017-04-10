@@ -3,7 +3,7 @@
 			<div class="header">
 				<h1 class="brand-title">CA Kick Off</h1>
 				<h2 class="brand-tagline">Enter to Win</h2>
-				<h2 class="brand-tagline">Build Number %BUILD$ </h2>
+				<h2 class="brand-tagline">Build Number $BUILD$ </h2>
 
 				<nav class="nav">
 					<ul class="nav-list">
