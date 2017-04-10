@@ -15,15 +15,6 @@ $myFile = "mydata.txt";
 $SecondaryFile = "Secondary.txt";              
 clearstatcache();
                                 
-$linecount = 0;
-$handle = fopen($myfile, "r");
-while(!feof($handle)){
-  $line = fgets($handle);
-  $linecount++;
-}
-
-fclose($handle);
-
 if(filesize($myFile) > 80 ) {   // your file is not empty
                 
 $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
@@ -37,8 +28,7 @@ $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
                         <h1 class="brand-title"><img src="chaching.png" /><br/>Congratulations to our Winners</h1>
         <br>
 
-        <br>
-                         <p> linecount = <b> <?=$linecount?> </b> </p>
+        <br>                       
 <p>  The First winner is  <b> <?=$lines[5]?> </b>  </p>
 <p>  The Second winner is <b> <?=$lines[3]?> </b> </p>
 <p>  The last winner is <b> <?=$lines[2]?> </b>  </p>
