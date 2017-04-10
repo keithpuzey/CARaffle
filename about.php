@@ -14,7 +14,7 @@
 			<h1 class="brand-title">Game Rules</h1> 
 			
 			<div style="padding-top:20px;">
-			<b>Rules of the Game.</b>
+			<b>Rules of the Game.  123</b>
 			</div>
 		</div>			
 		
