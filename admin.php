@@ -29,9 +29,9 @@ $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
         <br>
 
         <br>                       
-<p>  The First winner is  <b> <?=$lines[5]?> </b>  </p>
-<p>  The Second winner is <b> <?=$lines[3]?> </b> </p>
-<p>  The last winner is <b> <?=$lines[2]?> </b>  </p>
+<h2> <p>   <b> <?=$lines[5]?> </b>  </p>
+<p>  <b> <?=$lines[3]?> </b> </p>
+        <p>   <b> <?=$lines[2]?> </b>  </p> </h2>
         <br>
 
 <?php include('includes/footer.php') ?>
