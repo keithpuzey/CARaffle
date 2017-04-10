@@ -14,6 +14,8 @@
 							<a class="pure-button" href="about.php">About</a>
 						</li>
 					</ul>
+					
+						<IMG SRC="/images/raffle.gif" ALT="Raffle" WIDTH=180 HEIGHT=180>
 				</nav>
 			</div>
 		</div>
