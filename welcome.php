@@ -11,11 +11,6 @@
 
 <?php
 
-   if(in_array("",$_POST)){
-         //this will check the whole post data if any field is empty.
-            echo 'form is empty'; 
-            echo 'some error message';
-            exit;
 if(isset($_POST['Name']) )
 
 {
