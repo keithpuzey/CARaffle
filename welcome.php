@@ -24,7 +24,7 @@ if(isset($_POST['Name'])&&!empty($_POST['Name'])) {
 }
 else {
    $Success = 'There was an error, please enter a name';
-   die('no post data to process');
+   //die('no post data to process');
 }
 ?>
 
