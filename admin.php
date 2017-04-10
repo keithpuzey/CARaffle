@@ -12,8 +12,17 @@
 
 <?php
 $myFile = "mydata.txt";
+clearstatcache();
+if(filesize($myfile)) {
+    // your file is not empty
+}
+                
 $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
-
+}
+                
+  else   { $lines = file($Secondary.txt,FILE_IGNORE_NEW_LINES);//file in to an array          
+                
+ }
 ?>
 
                 <div class="content pure-u-1 pure-u-md-3-4">
