@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 		<link rel="stylesheet" href="css/layouts/store.css">
 		<title>CA Raffle Admin Screen</title>
-		<meta http-equiv="refresh" content="5">
+		<meta http-equiv="refresh" content="10">
 	</head>
 	<body>
 	<?php include('includes/adminheader.php') ?>
@@ -41,12 +41,8 @@ $lines = COUNT(FILE($file));
 
    <button type="submit" class="pure-button pure-button-primary">Select Winners</button>
 </form>
-						</div>
-					</fieldset>
-				</form>
-			</div>
-		</div>
-
+	</div>
+			
 		<?php include('includes/footer.php') ?>
 	</body>
 </html>
