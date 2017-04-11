@@ -23,10 +23,10 @@
     <br>
 
    <button type="submit" class="pure-button pure-button-primary" >Enter Raffle</button>
- <img src="/images/EnterToWin.png" alt="Enter to Win" style="width:304px;height:228px;">
+
 		     
 		</form>
-							
+<img src="/images/EnterToWin.png" alt="Enter to Win" style="width:304px;height:228px;">				
 </div
 	<?php include('includes/footer.php') ?>
 	</body>
