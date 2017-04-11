@@ -5,9 +5,9 @@
 		<br>
 		<br>
 		<br>
-			<h1 class="brand-title">CA Kick Off</h1>
+			<h2 class="brand-title">CA Kick Off</h2>
 				<br>
-				<h2 class="brand-tagline">Enter to Win</h2>
+				<br>
 				<br>
 				<h2 class="brand-tagline">Build Number $BUILD$ </h2>
     <br>
