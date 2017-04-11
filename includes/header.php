@@ -17,7 +17,7 @@
 							<a class="pure-button" href="index.php">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="pure-button" href="about.php">About</a>
+							<a class="pure-button" href="about.php">Rules</a>
 						</li>
 					</ul>
 					
