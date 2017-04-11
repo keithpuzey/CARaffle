@@ -3,8 +3,6 @@
 <html>
 
 	<head>
-		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 		<link rel="stylesheet" href="css/layouts/store.css">
 		<title>CA Raffle</title>
 
