@@ -20,6 +20,8 @@
 							<a class="pure-button" href="about.php">Rules</a>
 						</li>
 					</ul>
+					<br>
+					<br>
 			<img src="/images/static_qr_code_without_logo.jpg" alt="QR Code" style="width:304px;height:228px;">
 			
 				</nav>
