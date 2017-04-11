@@ -7,8 +7,7 @@
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 		<link rel="stylesheet" href="css/layouts/store.css">
 		<title>CA Raffle</title>
-		<script src="raffle_validation.js">
-		</script>
+
 	</head>
 	<body>
 	<?php include('includes/header.php') ?>
@@ -27,13 +26,7 @@
    <button type="submit" class="pure-button pure-button-primary" >Enter Raffle</button>
 </form>
 							
-
-						</div>
-					</fieldset>
-				</form>
-			</div>
-		</div>
-
-		<?php include('includes/footer.php') ?>
+</div
+	<?php include('includes/footer.php') ?>
 	</body>
 </html>
