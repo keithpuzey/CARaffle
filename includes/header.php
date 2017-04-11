@@ -5,7 +5,7 @@
 		<br>
 		<br>
 		<br>
-			<h2 class="brand-title">CA Kick Off</h2>
+			<h1 class="brand-tagline">CA Kick Off</h1>
 				<br>
 				<br>
 				<br>
