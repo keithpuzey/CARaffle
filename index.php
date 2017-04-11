@@ -12,12 +12,15 @@
 	<body>
 	<?php include('includes/header.php') ?>
 		<div class="content pure-u-1 pure-u-md-3-4">
-		<h1 class="brand-title">CA virtual raffle</h1>
+	
+	<img src="/images/EnterToWin.png" alt="Enter to Win" style="width:304px;height:228px;">			
+	<h1 class="brand-title">CA virtual raffle</h1>
         <br>
         <br>
 
 	<div class="pure-controls">
-             <form action="welcome.php" method="post">
+		
+        <form action="welcome.php" method="post">
         Name: <input name = Name type="text" name="Enter Your Name"><br>
     <br>
     <br>
@@ -26,7 +29,7 @@
 
 		     
 		</form>
-<img src="/images/EnterToWin.png" alt="Enter to Win" style="width:304px;height:228px;">				
+			
 </div
 	<?php include('includes/footer.php') ?>
 	</body>
