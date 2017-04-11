@@ -20,7 +20,7 @@
 	<div class="pure-controls">
 		
         <form action="welcome.php" method="post">
-        Name: <input name = Name type="text" name="Enter Your Name"><br>
+        Enter Name: <input name = Name type="text" name="Enter Your Name"><br>
     <br>
     <br>
 
