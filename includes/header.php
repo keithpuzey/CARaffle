@@ -3,6 +3,8 @@
 	<div class="sidebar pure-u-1 pure-u-md-1-4">
 	<IMG SRC="/images/raffle.gif" ALT="Raffle" WIDTH=280 HEIGHT=200>
 		<br>
+		<br>
+		<br>
 			<h1 class="brand-title">CA Kick Off</h1>
 				<br>
 				<h2 class="brand-tagline">Enter to Win</h2>
