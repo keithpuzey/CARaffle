@@ -41,8 +41,14 @@ $lines = COUNT(FILE($file));
 
    <button type="submit" class="pure-button pure-button-primary">Select Winners</button>
 </form>
-	</div>
-			
-		<?php include('includes/footer.php') ?>
+							
+	<br>
+	<br>
+	<h2 class="brand-tagline">http://win.cacdsolutions.com</h2>
+	<img src="/images/static_qr_code_without_logo.jpg" alt="QR Code" style="width:304px;height:228px;">
+	<br>
+	 </div
+		
+	<?php include('includes/footer.php') ?>
 	</body>
 </html>
