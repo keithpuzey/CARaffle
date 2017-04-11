@@ -29,7 +29,7 @@ else {
 ?>
 
      <div class="content pure-u-1 pure-u-md-3-4">
-        <h1 class="brand-title">Thank You</h1>
+   
         <br>
 
 <p>   <b> <?=$Success?> </b> </p>
