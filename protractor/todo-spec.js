@@ -3,6 +3,6 @@ describe('CA Raffle UI Test', function() {
     browser.ignoreSynchronization = true;
     browser.get('http://preprod.cacdsolutions.com/index.php');
     element(by.css('[name="Name"]')).sendKeys('Selenium Test User');
-    element(by.buttonText('Enter your Name and click here to Enter')).click();
+    element(by.buttonText('Show Me The Money!')).click();
     });
 });
