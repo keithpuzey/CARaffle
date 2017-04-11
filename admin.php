@@ -28,7 +28,9 @@ $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
                         <h1 class="brand-title"><img src="chaching.png" /><br/>Congratulations to our Winners</h1>
         <br>
 
-        <br>                       
+        <br>     
+                        
+     <h2>    <p class="blink"><?=$lines[5]?> </p>
 <h2> <p>   <b> <?=$lines[5]?> </b>  </p>
 <p>  <b> <?=$lines[3]?> </b> </p>
         <p>   <b> <?=$lines[2]?> </b>  </p> </h2>
