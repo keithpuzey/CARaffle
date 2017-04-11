@@ -14,8 +14,7 @@
 		<div class="content pure-u-1 pure-u-md-3-4">
 	
 	<img src="/images/EnterToWin.png" alt="Enter to Win" style="width:304px;height:228px;">			
-	<h1 class="brand-title">CA virtual raffle</h1>
-        <br>
+	<br>
         <br>
 
 	<div class="pure-controls">
