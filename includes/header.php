@@ -1,8 +1,8 @@
 <div id="layout" class="pure-g">
-		<div class="sidebar pure-u-1 pure-u-md-1-4">
-			<IMG SRC="/images/raffle.gif" ALT="Raffle" WIDTH=300 HEIGHT=200>
-				<div class="header">
-				<h1 class="brand-title">CA Kick Off</h1>
+	
+	<div class="sidebar pure-u-1 pure-u-md-1-4">
+	<IMG SRC="/images/raffle.gif" ALT="Raffle" WIDTH=300 HEIGHT=200>
+			<h1 class="brand-title">CA Kick Off</h1>
 				<br>
 				<h2 class="brand-tagline">Enter to Win</h2>
 				<br>
