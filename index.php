@@ -24,7 +24,7 @@
     <br>
     <br>
 
-   <button type="submit" class="pure-button pure-button-primary" >Enter your Name and click here to Enter</button>
+   <button type="submit" class="pure-button pure-button-primary" >Show Me The Money!</button>
 	     
 		</form>
 	<br>
