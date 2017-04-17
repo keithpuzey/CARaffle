@@ -1,5 +1,15 @@
 
 
+<?php session_start() ; 
+            foreach ($_SESSION as $key => $value) 
+            {
+                //$line[$i] = $_SESSION[$key] = null;
+                unset($_SESSION[$key]); // - will wipe out the refs totally.
+            }
+			
+			$_SESSION['orderConfirmFinalised'] = false;
+?>
+
 <html>
 
 	<head>
