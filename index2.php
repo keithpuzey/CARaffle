@@ -60,7 +60,7 @@ $lines = COUNT(FILE($file));
     <br>
 
 
-   <button type="submit" class="pure-button pure-button-primary">Select Winners</button>
+   <button type="submit" class="pure-button pure-button-primary">Show me the Winners</button>
 </form>
 							
 	<br>
