@@ -25,15 +25,15 @@ $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
 ?>
 
                 <div class="content pure-u-1 pure-u-md-3-4">
-                        <h1 class="brand-title"><img src="chaching.png" /><br/>Congratulations to our Winners</h1>
+                    <center>    <h1 class="brand-title"><img src="chaching.png" /><br/>Congratulations to our Winners</h1></center>
         <br>
 
         <br>     
                         
     <center><font size="10" color="blue"><p class="blink"><?=$lines[5]?> </p></font> </center>
      
-                           <font size="10" color="blue"><p class="blink"><?=$lines[3]?> </p></font>
-                           <font size="10" color="blue"><p class="blink"><?=$lines[2]?> </p></font>
+                          <center> <font size="10" color="blue"><p class="blink"><?=$lines[3]?> </p></font> </center>
+                          <center> <font size="10" color="blue"><p class="blink"><?=$lines[2]?> </p></font> </center>
            
 
 
