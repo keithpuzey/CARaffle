@@ -21,7 +21,7 @@
 	<?php include('includes/header.php') ?>
 	<br>
 	<br>
-	<center><h1 class="brand-tagline">Enter the Raffle here  -  http://win.cdbu.io</h1></center>
+	<h1 class="brand-tagline">Enter the Raffle here  -  http://win.cdbu.io</h1>
 		
 	<div class="content pure-u-1 pure-u-md-3-4">
 	
