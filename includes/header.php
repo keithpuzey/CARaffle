@@ -16,7 +16,7 @@
 				<nav class="nav">
 					<ul class="nav-list">
 						<li class="nav-item">
-					<a class="pure-button" href="index.php">Refresh</a>
+					<a class="pure-button" href="index.php">Try Again</a>
 						</li>
 						
 					</ul>
