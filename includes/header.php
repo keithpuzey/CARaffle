@@ -1,7 +1,7 @@
 <div id="layout" class="pure-g">
 	
 	<div class="sidebar pure-u-1 pure-u-md-1-4">
-	<IMG SRC="/images/InkedInkedraffle.gif" ALT="Raffle" WIDTH=280 HEIGHT=200>
+	<IMG SRC="/images/InkedInkedraffle.gif" ALT="Raffle" WIDTH=280 HEIGHT=200  align="middle" >
 		<br>
 		<br>
 		<br>
