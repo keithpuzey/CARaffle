@@ -22,7 +22,7 @@
 	<br>
 	<br>
 <center><h1 class="brand-tagline">Enter the Raffle here  -  http://cdbu.io</h1></center>
-		
+		<center><font size="10" color="blue">Enter the Raffle here  -  http://cdbu.io</font> </center>
 	<div class="content pure-u-1 pure-u-md-3-4">
 	
 	<img src="/images/enter-to-win.gif" alt="Enter to Win" style="width:304px;height:228px;">			
