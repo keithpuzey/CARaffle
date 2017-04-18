@@ -40,7 +40,9 @@ $lines = COUNT(FILE($file));
 ?>
 
 		<div class="content pure-u-1 pure-u-md-3-4">
-			<h1 class="brand-title">Raffle Status</h1>
+		<h1 class="brand-tagline">Enter the Raffle here  -  http://win.cdbu.io</h1>
+		
+		<h1 class="brand-title">Raffle Overview</h1>
         <br>
 		
         <br>
@@ -65,8 +67,8 @@ $lines = COUNT(FILE($file));
 							
 	<br>
 	<br>
-	<h2 class="brand-tagline">http://win.cacdsolutions.com</h2>
-	<img src="/images/static_qr_code_without_logo.jpg" alt="QR Code" style="width:304px;height:228px;">
+	<h2 class="brand-tagline">http://win.cdbu.io</h2>
+
 	<br>
 	 </div
 		
