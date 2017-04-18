@@ -32,11 +32,10 @@ $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
                         
    <font size="10" color="blue"><p class="blink"><?=$lines[5]?> </p></font>
      
+                           <font size="20" color="blue"><p class="blink"><?=$lines[3]?> </p></font>
+                           <font size="15" color="blue"><p class="blink"><?=$lines[2]?> </p></font>
            
-     <h1>    <p class="blink"><?=$lines[3]?> </p>
-             
-     <h1>    <p class="blink"><?=$lines[2]?> </p>
-    
+
 
 <?php include('includes/footer.php') ?>
 
