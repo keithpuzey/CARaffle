@@ -5,7 +5,10 @@
 		<br>
 		<br>
 		<br>
-			<h1 class="brand-tagline">CA Kick Off</h1>
+			<h1 class="brand-tagline">Continuous</h1>
+			<h1 class="brand-tagline">Delivery</h1>
+					<h1 class="brand-tagline">BU</h1>
+					<h1 class="brand-tagline">Kick Off</h1>
 				<br>
 				<br>
 				<br>
@@ -16,9 +19,7 @@
 						<li class="nav-item">
 							<a class="pure-button" href="index.php">Home</a>
 						</li>
-						<li class="nav-item">
-							<a class="pure-button" href="about.php">Rules</a>
-						</li>
+
 					</ul>
 				</nav>
 			</div>
