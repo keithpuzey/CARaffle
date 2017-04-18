@@ -5,10 +5,9 @@
 		<br>
 		<br>
 		<br>
-			<h1 class="brand-tagline">Continuous</h1>
-			<h1 class="brand-tagline">Delivery</h1>
-					<h1 class="brand-tagline">BU</h1>
-					<h1 class="brand-tagline">Kick Off</h1>
+			<h1 class="brand-tagline">Continuous Delivery</h1>
+					<h1 class="brand-tagline">Business Unit</h1>
+					<h1 class="brand-tagline">Raffle</h1>
 				<br>
 				<br>
 				<br>
@@ -17,7 +16,7 @@
 				<nav class="nav">
 					<ul class="nav-list">
 						<li class="nav-item">
-							<a class="pure-button" href="index.php">Home</a>
+							<a class="pure-button" href="index.php">Refresh</a>
 						</li>
 
 					</ul>
