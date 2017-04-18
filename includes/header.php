@@ -16,7 +16,7 @@
 				<nav class="nav">
 					<ul class="nav-list">
 						<li class="nav-item">
-					<center>		<a class="pure-button" href="index.php">Refresh</a></center>
+					<center><a class="pure-button" href="index.php">Refresh</a></center>
 						</li>
 
 					</ul>
