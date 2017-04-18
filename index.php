@@ -32,7 +32,7 @@
     <br>
     <br>
 
-   <button type="submit" class="pure-button pure-button-primary" >Show Me The Money!</button>
+   <button type="submit" class="pure-button pure-button-primary" >Submit</button>
 	     
 		</form>
 	<br>
