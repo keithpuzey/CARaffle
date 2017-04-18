@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 		<link rel="stylesheet" href="css/layouts/store.css">
 		<title>CA Raffle</title>
-		<script type="text/javascript" id="ca_eum_ba" agent=browser src="https://axa.trials.ca.com/mdo/v1/sdks/browser/BA.js" data-profileUrl="https://collector.axa.trials.ca.com/profiles/PUZKE01%40CA.COM-C/CA%20Raffle?agent=browser" data-tenantID="PUZKE01@CA.COM-C" data-appID="CA Raffle" data-appKey="6d832950-238e-11e7-bee2-a9dcb512d6bd" ></script>
+		<script type="text/javascript" id="ca_eum_ba" agent=browser src="https://axa.trials.ca.com/mdo/v1/sdks/browser/BA.js" data-profileUrl="https://collector.axa.trials.ca.com/profiles/2A0E7CE2-BB3E-CF30-CF52-38212C9A7861/CA%20Raffle?agent=browser" data-tenantID="2A0E7CE2-BB3E-CF30-CF52-38212C9A7861" data-appID="CA Raffle" data-appKey="46546a30-23f0-11e7-9174-bddc75280658" ></script>
 	</head>
 	<body>
 	<?php include('includes/header.php') ?>
@@ -36,9 +36,6 @@
 	     
 		</form>
 	<br>
-	<br>
-	<h2 class="brand-tagline">http://win.cacdsolutions.com</h2>
-	<img src="/images/static_qr_code_without_logo.jpg" alt="QR Code" style="width:304px;height:228px;">
 	<br>
 	 </div
 	<?php include('includes/footer.php') ?>
