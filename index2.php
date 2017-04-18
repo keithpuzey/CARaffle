@@ -41,7 +41,8 @@ $lines = COUNT(FILE($file));
 
 		<div class="content pure-u-1 pure-u-md-3-4">
 		<h1 class="brand-tagline">Enter the Raffle here  -  http://win.cdbu.io</h1>
-		
+		<br>
+		<br>
 		<h1 class="brand-title">Raffle Overview</h1>
         <br>
 		
