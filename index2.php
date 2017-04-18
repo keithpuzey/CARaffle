@@ -43,7 +43,6 @@ $lines = COUNT(FILE($file));
 		<h1 class="brand-tagline">Enter the Raffle here  -  http://win.cdbu.io</h1>
 		<br>
 		<br>
-		<h1 class="brand-title">Raffle Overview</h1>
         <br>
 		
         <br>
@@ -67,9 +66,7 @@ $lines = COUNT(FILE($file));
 </form>
 							
 	<br>
-	<br>
-	<h2 class="brand-tagline">http://win.cdbu.io</h2>
-
+	
 	<br>
 	 </div
 		
