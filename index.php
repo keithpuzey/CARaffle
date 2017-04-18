@@ -24,7 +24,7 @@
 
 	
 	<div class="content pure-u-1 pure-u-md-3-4">
-		<font size="10" color="blue">Enter the Raffle here  -  http://cdbu.io</font>
+		<font size="10" color="blue">Enter Raffle -  http://cdbu.io</font>
 		<br>
 		
 	
