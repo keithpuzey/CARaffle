@@ -39,18 +39,15 @@ $file = "mydata.txt";
 $lines = COUNT(FILE($file))-1;
 ?>
 		<div class="content pure-u-1 pure-u-md-3-4">
-		<h1 class="brand-tagline">Enter the Raffle here  -  http://cdbu.io</h1>
+	<font size="10" color="blue">Enter Raffle -  http://cdbu.io</font>
 		<br>
 		<br>
-        <br>
+		  <br>
 		
         <br>
 
-
-             <p>There are currently  <b><?=$lines?> </b>  entries in the Raffle </p>
-
-
-
+<font size="10" <p>There are currently  <b><?=$lines?> </b>  entries in the Raffle </p></font>
+   
         <br>
 
         <br>
