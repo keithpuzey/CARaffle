@@ -21,15 +21,10 @@
 	<?php include('includes/header.php') ?>
 	<br>
 	<br>
-
-	
-	
 	<img src="/images/enter-to-win.gif" alt="Enter to Win" style="width:304px;height:228px;">			
 	<br>
         <br>
-
 	<div class="pure-controls">
-		
         <form action="welcome.php" method="post">
         Enter Name: <input name = Name type="text" name="Enter Your Full Name"><br>
     <br>
