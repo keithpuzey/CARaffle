@@ -36,7 +36,7 @@
        <?php
 
 $file = "mydata.txt";
-$lines = COUNT(FILE($file));
+$lines = COUNT(FILE($file)-1);
 ?>
 
 		<div class="content pure-u-1 pure-u-md-3-4">
