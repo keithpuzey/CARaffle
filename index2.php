@@ -13,6 +13,7 @@
 
 		$file = "mydata.txt";
 		$lines = COUNT(FILE($file));
+
 	?>
 		<div class="content pure-u-1 pure-u-md-3-4">
 		<font size="10" color="blue">Enter Raffle -  http://cdbu.io</font>
@@ -21,7 +22,7 @@
 	<br>
 	<br>
 
-	<font size="10" <p> There are currently <b><?=$lines?>-1</b> entries in the Raffle </p></font>
+	<font size="10" <p> There are currently <b><?=$lines?></b> entries in the Raffle </p></font>
    
         <br>
         <br>
