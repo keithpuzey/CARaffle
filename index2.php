@@ -17,34 +17,29 @@
 $file = "mydata.txt";
 $lines = COUNT(FILE($file))-1;
 ?>
-		<div class="content pure-u-1 pure-u-md-3-4">
+	<div class="content pure-u-1 pure-u-md-3-4">
 	<font size="10" color="blue">Enter Raffle -  http://cdbu.io</font>
-		<br>
-		<br>
-		  <br>
-		
-        <br>
+	<br>
+	<br>
+	<br>
+	<br>
 
 <font size="10" <p>There are currently  <b><?=$lines?> </b>  entries in the Raffle </p></font>
    
         <br>
-
         <br>
-
-						<div class="pure-controls">
-             <form action="admin.php" method="post">
-       
+	<div class="pure-controls">
+        <form action="admin.php" method="post">
+   
     <br>
-
-
    <button type="submit" class="pure-button pure-button-primary">Show me the Winners</button>
 </form>
 							
 	<br>
-	
 	<br>
 	 </div
 		
 	<?php include('includes/footer.php') ?>
+	
 	</body>
 </html>
