@@ -27,7 +27,7 @@
         <br>
 	<div class="pure-controls">
         <form action="welcome.php" method="post">
-        Enter Name: <input name = Name type="text" name="Enter Your Full Name"><br>
+        Enter Your Full Name: <input name = Name type="text" name="Enter Name"><br>
     <br>
     <br>
 
