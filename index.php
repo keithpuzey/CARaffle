@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 		<link rel="stylesheet" href="css/layouts/store.css">
 		<title>CA Raffle</title>
-		<script type="text/javascript" id="ca_eum_ba" agent=browser src="https://axa.trials.ca.com/mdo/v1/sdks/browser/BA.js" data-profileUrl="https://collector.axa.trials.ca.com/profiles/2A0E7CE2-BB3E-CF30-CF52-38212C9A7861/CA%20Raffle?agent=browser" data-tenantID="2A0E7CE2-BB3E-CF30-CF52-38212C9A7861" data-appID="CA Raffle" data-appKey="46546a30-23f0-11e7-9174-bddc75280658" ></script>
+		<script type="text/javascript" id="ca_eum_ba" agent=browser src="https://axa.saas.ca.com/mdo/v1/sdks/browser/BA.js" data-profileUrl="https://collector.axa.saas.ca.com/api/1/urn:ca:tenantId:48B428C9-C483-B954-105A-A612C70885A2/urn:ca:appId:Raffle%20Application/profile?agent=browser" data-tenantID="48B428C9-C483-B954-105A-A612C70885A2" data-appID="Raffle Application" data-appKey="fa732d70-269e-11e7-b5cd-994429ed59ce" ></script>
 	</head>
 	<body>
 	<?php include('includes/header.php') ?>
