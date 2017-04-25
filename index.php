@@ -29,6 +29,8 @@
 	<div class="pure-controls">
         <form action="welcome.php" method="post">
         Enter Your Full Name: <input name = Name type="text" name="Enter Name"><br>
+	BrowserAgentExtension.setCustomerId({"customerId" : "Name" , 
+				"attributes" : { "k" : "v" } });
     <br>
     <br>
 
