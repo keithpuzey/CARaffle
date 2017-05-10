@@ -12,17 +12,26 @@
 
 
 <?php
-$myFile = "mydata.txt";
-$SecondaryFile = "Secondary.txt";              
-clearstatcache();
-                                
-if(filesize($myFile) > 40 ) {   // your file is not empty
+    $myFile = "mydata.txt";
+    clearstatcache();
+    $lines = COUNT(FILE($myFile));
+    $drawtime = date("D M j G:i:s T Y");
+    
+     if ($lines == 0) {$notenough = "Not enough raffle entries, please try again";}
+
+else
+    {
+
+	$lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
+		shuffle ($lines);
+		$winnersfile = fopen ("winners.txt","a");
+		fwrite($winnersfile,"$drawtime,  $lines[0], $lines[1], $lines[2] \r\n");
+	fclose ($winnersfile);
+
                 
-$lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
-}
-                
-  else   { $lines = file($SecondaryFile,FILE_IGNORE_NEW_LINES);//file in to an array          
- }
+	$lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
+	shuffle ($lines);
+	}
 ?>
 
                 <div class="content pure-u-1 pure-u-md-3-4">
@@ -30,10 +39,11 @@ $lines = file($myFile,FILE_IGNORE_NEW_LINES);//file in to an array
         <br>
 
         <br>     
-                        
-    <center><font size="10" color="blue"><p class="blink"><?=$lines[5]?> </p></font> </center>
+        <center><font size="10" color="red"><p class="blink"><?=$notenough?> </p></font> </center>
+                    
+        <center><font size="10" color="blue"><p class="blink"><?=$lines[0]?> </p></font> </center>
      
-                          <center> <font size="10" color="blue"><p class="blink"><?=$lines[3]?> </p></font> </center>
+                          <center> <font size="10" color="blue"><p class="blink"><?=$lines[1]?> </p></font> </center>
                           <center> <font size="10" color="blue"><p class="blink"><?=$lines[2]?> </p></font> </center>
            
 
