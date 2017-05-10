@@ -12,7 +12,7 @@
        <?php
 
 		$file = "mydata.txt";
-		$lines = COUNT(FILE($file))-1;
+		$lines = COUNT(FILE($file));
 
 	?>
 		<div class="content pure-u-1 pure-u-md-3-4">
