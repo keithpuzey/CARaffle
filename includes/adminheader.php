@@ -3,7 +3,7 @@
 	<div class="sidebar pure-u-1 pure-u-md-1-4">
 		<br>
 		<br>
-	<IMG SRC="/images/raffle-small.gif" ALT="Raffle" WIDTH=280 HEIGHT=200 >
+	<IMG SRC="images/raffle-small.gif" ALT="Raffle" WIDTH=280 HEIGHT=200 >
 		<br>
 		<br>
 		<br>
