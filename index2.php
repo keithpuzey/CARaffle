@@ -26,16 +26,16 @@
    
         <br>
         <br>
-	<div class="pure-controls">
-        <form action="admin.php" method="post">
-   
-    <br>
-   <button type="submit" class="pure-button pure-button-primary">Show me the Winners</button>
-</form>
-							
-	<br>
-	<br>
-	 </div
+            <div class="pure-controls">
+                <form action="admin.php" method="post">
+
+                    <br>
+                    <button type="submit" class="pure-button pure-button-primary">Show me the Winners</button>
+                </form>
+
+                <br>
+                <br>
+            </div>
 		
 	<?php include('includes/footer.php') ?>
 	

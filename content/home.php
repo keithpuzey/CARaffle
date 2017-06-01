@@ -1,0 +1,1 @@
+<p>This is <b>home</b> page.
