@@ -1,8 +1,11 @@
 <?php
 
 class PageRunner {
+    private $TO_WIN = "ENTER OUR RAFFLE TO WIN!";
+    private $WINNERS = "RAFFLE WINNERS";
+    private $DEMO = "CDBU Modern Software Factory Demo";
 
-    public $page;
+    private $page;
 
     function __construct() {
         $path = trim(parse_url(urldecode($_SERVER["REQUEST_URI"]), PHP_URL_PATH), '/');
@@ -18,12 +21,28 @@ class PageRunner {
         }
     }
 
+    /** loads template */
+    function run() {
+        include 'template/template.php';
+    }
+
     function buildVersion() {
+        // todo: make it work
+        // echo $BUILD$;
         echo "4566373546";
     }
 
     function siteName() {
         echo "Raffle";
+    }
+
+    function headerText() {
+        // echo $this->WINNERS;
+        echo $this->TO_WIN;
+    }
+
+    function subHeaderText() {
+        echo $this->DEMO;
     }
 
     function pageTitle() {
