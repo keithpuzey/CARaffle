@@ -4,6 +4,7 @@ class PageRunner {
     private $TO_WIN = "ENTER OUR RAFFLE TO WIN!";
     private $WINNERS = "RAFFLE WINNERS";
     private $DEMO = "CDBU Modern Software Factory Demo";
+    private $BUILD = "4566373546";
 
     private $page;
 
@@ -27,9 +28,8 @@ class PageRunner {
     }
 
     function buildVersion() {
-        // todo: make it work
-        // echo $BUILD$;
-        echo "4566373546";
+        // todo: bind it to Jenkins build id
+        echo isset($GLOBALS["BUILD"]) ? $GLOBALS["BUILD"] : $this->BUILD;
     }
 
     function siteName() {
@@ -37,8 +37,7 @@ class PageRunner {
     }
 
     function headerText() {
-        // echo $this->WINNERS;
-        echo $this->TO_WIN;
+        echo $this->page === 'winners' ? $this->WINNERS : $this->TO_WIN;
     }
 
     function subHeaderText() {

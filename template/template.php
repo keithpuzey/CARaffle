@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 
     <title><?php $this->pageTitle(); ?> | <?php $this->siteName(); ?></title>
 
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
 
     <style type="text/css">
         * { box-sizing: border-box; }
@@ -61,7 +64,7 @@
         }
         article content {
             display: block;
-            max-width: 980px;
+            max-width: 1024px;
             /*-webkit-box-direction: normal;*/
         }
 
@@ -84,6 +87,17 @@
             -webkit-justify-content: center;
             justify-content: center;
             max-width: 100%;
+        }
+
+        .horizontal-center {
+            margin: 0 auto !important;
+            display: block !important;
+        }
+
+        @media screen and (max-width: 48em) {
+            article content {
+                max-width: 100%;
+            }
         }
 
         @media screen and (min-width: 64em) {
