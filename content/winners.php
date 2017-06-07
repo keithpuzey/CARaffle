@@ -17,7 +17,7 @@ if ($count == 0) {
     if ($count > 2) {
         $winners[] = $lines[2];
     }
-    $winnersfile = fopen ("winners.txt","a");
+    $winnersfile = fopen ("winnersData.txt","a");
     fwrite($winnersfile,"$drawtime,  " . join(", ", $winners) . " \r\n");
     fclose ($winnersfile);
 
