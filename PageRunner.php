@@ -11,8 +11,7 @@ class PageRunner {
     function __construct() {
         $path = trim(parse_url(urldecode($_SERVER["REQUEST_URI"]), PHP_URL_PATH), '/');
         // clear file name from path start (it optional in the URL)
-        $path = ltrim($path, "index.php");
-        $path = ltrim($path, "index");
+        $path = str_ireplace("index.php", "", $path);
         // clear last left slash(es)
         $path = ltrim($path, "/");
         // extract the first path chunk as a page

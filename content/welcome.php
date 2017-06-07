@@ -35,12 +35,12 @@ if(isset($_POST[$nameInput]) && !empty($_POST[$nameInput])) {
     .stop {
         width: 200px;
         height: 300px;
-        background: url(assets/images/stop.png) no-repeat center center;
+        background: url(/assets/images/stop.png) no-repeat center center;
     }
     .cross {
         width: 200px;
         height: 300px;
-        background: url(assets/images/cross.png) no-repeat center center;
+        background: url(/assets/images/cross.png) no-repeat center center;
     }
 
 </style>
