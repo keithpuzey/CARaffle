@@ -1,6 +1,6 @@
 
 
-describe('CA Raffle UI Test - Win Environment', function(){
-  it('Run tests Against CA Raffle site (Win)', function(){
+describe('CA Raffle UI Test - EMEA Environment', function(){
+  it('Run tests Against CA Raffle site (EMEA)', function(){
   }); 
 });
