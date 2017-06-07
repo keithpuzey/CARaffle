@@ -18,28 +18,36 @@
         // fonts
         @font-face {
             font-family: 'CA Sans';
-            src: url("assets/fonts/ca-sans/CSSansWebRegular/ca_sans_web-regular.eot");
-            src: url("assets/fonts/ca-sans/CSSansWebRegular/ca_sans_web-regular.eot?#iefix") format("embedded-opentype"),
-            url("assets/fonts/ca-sans/CSSansWebRegular/ca_sans_web-regular.svg#CASans-Regular") format("svg"),
-            url("assets/fonts/ca-sans/CSSansWebRegular/ca_sans_web-regular.woff") format("woff");
-            font-weight: 400;
-            font-style: normal
+            src: url("/assets/fonts/ca-sans/CSSansWebRegular/ca_sans_web-regular.eot");
+            src: url("/assets/fonts/ca-sans/CSSansWebRegular/ca_sans_web-regular.eot?#iefix") format("embedded-opentype"),
+            url("/assets/fonts/ca-sans/CSSansWebRegular/ca_sans_web-regular.svg#CASans-Regular") format("svg"),
+            url("/assets/fonts/ca-sans/CSSansWebRegular/ca_sans_web-regular.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
         }
 
         @font-face {
             font-family: 'CA Sans';
-            src: url("assets/fonts/ca-sans/CSSansWebBold/ca_sans_web-bold.eot");
-            src: url("assets/fonts/ca-sans/CSSansWebBold/ca_sans_web-bold.eot?#iefix") format("embedded-opentype"),
-            url("assets/fonts/ca-sans/CSSansWebBold/ca_sans_web-bold.svg#CASans-Regular") format("svg"),
-            url("assets/fonts/ca-sans/CSSansWebBold/ca_sans_web-bold.woff") format("woff");
-            font-weight: 700;
-            font-style: normal
+            src: url("/assets/fonts/ca-sans/CSSansWebBold/ca_sans_web-bold.eot");
+            src: url("/assets/fonts/ca-sans/CSSansWebBold/ca_sans_web-bold.eot?#iefix") format("embedded-opentype"),
+            url("/assets/fonts/ca-sans/CSSansWebBold/ca_sans_web-bold.svg#CASans-Regular") format("svg"),
+            url("/assets/fonts/ca-sans/CSSansWebBold/ca_sans_web-bold.woff") format("woff");
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'CA Sans';
+            src: url("/assets/fonts/ca-sans/CSSansWebItalic/ca_sans_web-italic.eot");
+            src: url("/assets/fonts/ca-sans/CSSansWebItalic/ca_sans_web-italic.eot?#iefix") format("embedded-opentype"),
+            url("/assets/fonts/ca-sans/CSSansWebItalic/ca_sans_web-italic.svg#CASans-Regular") format("svg"),
+            url("/assets/fonts/ca-sans/CSSansWebItalic/ca_sans_web-italic.woff") format("woff");
+            font-weight: normal;
+            font-style: italic;
         }
 
         html, button, input, select, textarea,
         .pure-g [class *= "pure-u"] {
-            /* Set your content font stack here: */
-            /*font-family: Georgia, Times, "Times New Roman", serif;*/
             font-family: "CA Sans";
         }
 
@@ -71,7 +79,7 @@
         header logo { }
         header logo icon {
             display: block;
-            background: url(assets/images/logo.png) no-repeat;
+            background: url(/assets/images/logo.png) no-repeat;
             width: 190px;
             height: 170px;
             margin: 0.5em auto;
@@ -141,7 +149,7 @@
             <logo class="pure-u-1 pure-u-lg-1-2"><icon></icon></logo>
             <text class="pure-u-1 pure-u-lg-1-2">
                 <h1><?php $this->headerText(); ?></h1>
-                <h3><?php $this->subHeaderText(); ?></h3>
+                <h3 style="letter-spacing: 2px;"><?php $this->subHeaderText(); ?></h3>
             </text>
         </header>
 

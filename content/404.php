@@ -1,3 +1,1 @@
-<div class="pure-u-1">
-    <p><b>404 - This page does not exist.</b></p>
-</div>
+<h1 class="pure-u-1">404 - This page does not exist.</h1>
