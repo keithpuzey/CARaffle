@@ -139,6 +139,7 @@
         @media screen and (min-width: 64em) {
             header logo.pure-u-lg-1-2 {
                 width: 190px;
+                padding-left: 10px;
                 /*height: 170px;*/
             }
             header logo icon {
