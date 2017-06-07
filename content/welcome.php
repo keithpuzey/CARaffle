@@ -43,6 +43,19 @@ if(isset($_POST[$nameInput]) && !empty($_POST[$nameInput])) {
         background: url(/assets/images/cross.png) no-repeat center center;
     }
 
+    @media screen and (max-width: 48em) {
+        .stop {
+            background-size: 100px 150px;
+            width: 100px;
+            height: 150px;
+        }
+        .cross {
+            background-size: 100px 150px;
+            width: 100px;
+            height: 150px;
+        }
+    }
+
 </style>
 
 <div class="pure-u-1 pure-u-md-1">

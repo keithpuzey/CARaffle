@@ -1,14 +1,18 @@
 <style scoped>
-    .centered-text {
-        text-align: center;
-    }
     .painter {
-        width: 200px;
-        height: 300px;
+        width: 147px;
+        height: 370px;
         background: url(/assets/images/painter.png) no-repeat center center;
     }
     .message {
         font-size: 2em;
+    }
+    @media screen and (max-width: 48em) {
+        .painter {
+            background-size: 73px 185px;
+            width: 73px;
+            height: 185px;
+        }
     }
 </style>
 
