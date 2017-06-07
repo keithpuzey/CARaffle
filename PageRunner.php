@@ -1,5 +1,15 @@
 <?php
 
+interface Pages {
+    const HOME = "home";
+    const ADMIN = "admin";
+    const WINNERS = "winners";
+    const WELCOME = "welcome";
+    const NOTREADY = "notready";
+    const P404 = "404";
+    const ABOUT = "about";
+}
+
 class PageRunner {
     private $TO_WIN = "ENTER OUR RAFFLE TO WIN!";
     private $WINNERS = "RAFFLE WINNERS";
@@ -19,10 +29,10 @@ class PageRunner {
         // extract the first path chunk as a page
         list($this->page) = explode('/', $path);
         if (!$this->page) {
-            $this->page = 'home';
+            $this->page = Pages::HOME;
         }
 
-        if ($this->page === 'admin') {
+        if ($this->page === Pages::ADMIN) {
             $this->refresh = true;
         }
     }
@@ -42,7 +52,7 @@ class PageRunner {
     }
 
     function headerText() {
-        echo $this->page === 'winners' ? $this->WINNERS : $this->TO_WIN;
+        echo $this->page === Pages::WINNERS ? $this->WINNERS : $this->TO_WIN;
     }
 
     function subHeaderText() {
@@ -52,6 +62,12 @@ class PageRunner {
     function pageTitle() {
         $title = $this->page;
         echo ucwords(str_replace('-', ' ', $title));
+    }
+
+    function axaSnippet() {
+        if ($this->page === Pages::HOME || $this->page === Pages::ADMIN) {
+            include "plugins/axa.php";
+        }
     }
 
     function pageContent() {
