@@ -62,7 +62,8 @@ $count = file_exists($dataFileName) ? COUNT(FILE($dataFileName)) : 0;
     <form action="winners" method="post" name="winnersForm"></form>
 
     <div id="submitBtn">
-        <button onclick="getWinners()" class="horizontal-center pure-button pure-button-primary pure-u-1-2 pure-u-md-1-2" <?=$count ? "" : "disabled"?>>And the winners are...</button>
+        <button onclick="getWinners()"
+                class="horizontal-center pure-button pure-button-primary pure-u-1 pure-u-md-1 pure-u-lg-1-2" <?=$count ? "" : "disabled"?>>And the winners are...</button>
     </div>
     <div id="loader" style="display: none;">
         <div class="spinner horizontal-center"></div>
@@ -80,6 +81,6 @@ $count = file_exists($dataFileName) ? COUNT(FILE($dataFileName)) : 0;
 
         setTimeout(function () {
             document.winnersForm.submit();
-        }, 5000);
+        }, 2000);
     }
 </script>
