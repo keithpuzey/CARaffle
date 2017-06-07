@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
 
+    <?php $this->axaSnippet(); ?>
+
     <style type="text/css">
         * { box-sizing: border-box; }
 
