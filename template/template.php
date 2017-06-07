@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php if ($this->refresh) {?>
+        <meta http-equiv="refresh" content="10">
+    <?php } ?>
+
     <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 
@@ -82,11 +86,11 @@
             background: url(/assets/images/logo.png) no-repeat;
             width: 190px;
             height: 170px;
-            margin: 0.5em auto;
+            margin: 0 auto;
         }
 
         header text { text-align: center; }
-        header h1 { font-size: 2em; margin-bottom: 0; }
+        header h1 { font-size: 2em; margin-bottom: 0; margin-top: 0; }
         header h3 { font-size: 1em; margin-top: 0; }
 
         article {
@@ -119,6 +123,8 @@
             max-width: 100%;
         }
 
+        .centered-text { text-align: center; }
+
         .horizontal-center {
             margin: 0 auto !important;
             display: block !important;
@@ -135,10 +141,13 @@
                 width: 190px;
                 /*height: 170px;*/
             }
+            header logo icon {
+                margin: 0.5em auto;
+            }
             header text.pure-u-lg-1-2 {
                 width: 80%;
             }
-            header h1 { font-size: 4em; }
+            header h1 { font-size: 4em; margin-top: 0.6em; }
             header h3 { font-size: 1em; }
         }
     </style>
