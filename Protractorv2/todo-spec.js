@@ -1,4 +1,3 @@
-
 describe('CA Raffle UI Test - emea Environment', function() {
   it('should add a todo', function() {
     browser.ignoreSynchronization = true;
