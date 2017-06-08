@@ -4,13 +4,6 @@ $count = file_exists($dataFileName) ? COUNT(FILE($dataFileName)) : 0;
 ?>
 
 <style scoped>
-    /*h2, h3 { font-size: 1em; }*/
-    /*h1 { font-size: 2em; }*/
-    /*@media screen and (min-width: 64em) {
-        h1 { font-size: 4em; }
-        h3 { font-size: 2em; }
-    }*/
-
     content {
         height: 100%;
         padding-top: 50px;
