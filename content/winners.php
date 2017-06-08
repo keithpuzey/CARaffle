@@ -26,10 +26,6 @@ if ($count == 0) {
 ?>
 
 <style scoped>
-    h1, h2, h3 {
-        text-align: center;
-        /*font-size: 1em;*/
-    }
     content {
         height: 100%;
     }
@@ -54,10 +50,10 @@ if ($count == 0) {
     <div class="chaching horizontal-center"><img src="/assets/images/cha_ching.png"/></div>
 </div>
 <?php if ($notenough) { ?>
-    <h1 class="error pure-u-1 pure-u-md-1"><?=$notenough?></h1>
+    <h1 class="error pure-u-1 pure-u-md-1 centered-text"><?=$notenough?></h1>
 <?php } else { ?>
     <?php foreach ($winners as &$winner) { ?>
-        <div class="pure-u-1 pure-u-md-1-<?=$winnersCount?> l-box">
+        <div class="pure-u-1 pure-u-md-1-<?=$winnersCount?> l-box centered-text">
             <img class="trophy horizontal-center" src="/assets/images/trophy.png"/>
             <h3><?=$winner?></h3>
         </div>
