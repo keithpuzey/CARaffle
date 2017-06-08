@@ -3,6 +3,6 @@ describe('CA Raffle UI Test - EMEA Environment', function() {
     browser.ignoreSynchronization = true;
     browser.get('http://emea-preprod.cdbu.io');
     element(by.css('[name="name"]')).sendKeys('Selenium Test User');
-    element(by.buttonText('I'm In!')).click();
+    element(by.buttonText('I\'m In!')).click();
     });
 });
