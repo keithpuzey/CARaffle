@@ -1,5 +1,5 @@
 
-describe('CA MSF Raffle UI Test - cdbu.io Environment, function() {
+describe('CA MSF Raffle UI Test - cdbu.io Environment', function() {
   it('should add a todo', function() {
     browser.ignoreSynchronization = true;
     browser.get('http://preprod.cdbu.io');
