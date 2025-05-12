@@ -1,15 +1,3 @@
-# PHP
-- task: BlazeMeter Integration@2
-  inputs:
-    selectTask: 'runExistingTest'
-    testurl: 'https://a.blazemeter.com/app/#/accounts/$(AccounID)/workspaces/$(WorkSpaceID)/projects/2066897/tests/14772606/edit'
-    apikey: '$(APIKEY)'
-    apisecret: '$(APISECRET)'
-    selectUploadfile: 'No'
-# Test and package your PHP project.
-# Add steps that run tests, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/php
-
 trigger:
 - master
 
@@ -31,3 +19,12 @@ steps:
 
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
+
+- task: BlazeMeter Integration@2
+  displayName: "BlazeMeter Test"
+  inputs:
+    selectTask: 'runExistingTest'
+    testurl: 'https://a.blazemeter.com/app/#/accounts/$(AccounID)/workspaces/$(WorkSpaceID)/projects/2066897/tests/14772606/edit'
+    apikey: '$(APIKEY)'
+    apisecret: '$(APISECRET)'
+    selectUploadfile: 'No'
