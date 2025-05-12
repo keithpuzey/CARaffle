@@ -12,9 +12,6 @@ steps:
     php -v
   displayName: 'Verify PHP version'
 
-- script: |
-    composer install --no-interaction --prefer-dist
-  displayName: 'Composer install'
 
 - task: BlazeMeter Integration@2
   displayName: "BlazeMeter Test"
