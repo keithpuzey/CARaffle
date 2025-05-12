@@ -21,3 +21,4 @@ steps:
     apikey: '$(APIKEY)'
     apisecret: '$(APISECRET)'
     selectUploadfile: 'No'
+    showtaillog: true
