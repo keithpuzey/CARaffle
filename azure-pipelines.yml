@@ -2,21 +2,25 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 variables:
   phpVersion: 8.1
 
 steps:
 - script: |
-    ls -lia
+    php -v
+  displayName: 'Verify PHP version'
 
+- script: |
+    composer install --no-interaction --prefer-dist
+  displayName: 'Composer install'
 
 - task: BlazeMeter Integration@2
   displayName: "BlazeMeter Test"
   inputs:
     selectTask: 'runExistingTest'
-    testurl: 'https://a.blazemeter.com/app/#/accounts/$(AccounID)/workspaces/$(WorkSpaceID)/projects/2066897/tests/14772606/edit'
+    testurl: 'https://a.blazemeter.com/app/#/accounts/$(AccountID)/workspaces/$(WorkSpaceID)/projects/2066897/tests/14772606/edit'
     apikey: '$(APIKEY)'
     apisecret: '$(APISECRET)'
     selectUploadfile: 'No'
