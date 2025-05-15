@@ -22,3 +22,11 @@ steps:
     apisecret: '$(APISECRET)'
     selectUploadfile: 'No'
     showtaillog: true
+- task: BlazeMeter Integration@2
+  inputs:
+    selectTask: 'createPerformaceTest'
+    apikey: '$(APIKEY)'
+    apisecret: '$(APISECRET)'
+    reportName: 'Sample'
+    selectuploadforPerformanceTest: 'uploadfile'
+    testname: 'sample'
