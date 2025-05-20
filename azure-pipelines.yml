@@ -13,6 +13,7 @@ steps:
   displayName: 'Verify PHP version'
 
 - task: BlazeMeter Integration@2
+  condition: false  # This disables the task
   inputs:
     selectTask: 'createPerformaceTest'
     apikey: '$(APIKEY)'
@@ -21,6 +22,7 @@ steps:
     testname: 'sample'
 - task: BlazeMeter Integration@2
   displayName: "BlazeMeter Test"
+  condition: false  # This disables the task
   inputs:
     selectTask: 'runExistingTest'
     testurl: 'https://a.blazemeter.com/app/#/accounts/$(AccountID)/workspaces/$(WorkSpaceID)/projects/2066897/tests/14780821/edit'
@@ -28,3 +30,4 @@ steps:
     apisecret: '$(APISECRET)'
     selectUploadfile: 'No'
     showtaillog: true
+
