@@ -11,6 +11,20 @@ steps:
 - script: |
     php -v
   displayName: 'Verify PHP version'
+- task: BlazeMeter Integration@2
+  inputs:
+    selectTask: 'createPerformaceTest'
+    apikey: '$(APIKEY)'
+    apisecret: '$(APISECRET)'
+    reportName: 'UploadedJMX'
+    selectuploadforPerformanceTest: 'uploadfile'
+    updateMainTestFile: true
+    inputstartfile: 'login_test.jmx'
+    testname: 'pipeline-test'
+    totalusers: 
+    duration: 
+    rampup: 
+    showtaillog: true
 
 - task: BlazeMeter Integration@2
   condition: false  # This disables the task
